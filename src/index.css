@@ -1,0 +1,110 @@
+@font-face {
+  font-family: bungeeRegular;
+  src: url(src/fonts/Bungee-Regular.ttf);
+}
+
+@font-face {
+  font-family: michromaRegular;
+  src: url(src/fonts/Michroma-Regular.ttf);
+}
+
+body{
+  background-color: rgb(34, 37, 48);
+  color: rgb(0, 255, 242);
+}
+
+img{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5%;
+  border-color: rgba(0, 242, 255, 0.739);
+}
+
+section{
+  display: flex;
+  justify-content: left;
+  padding-right: 25%;
+  padding-left: 25%;
+}
+
+.headerbar{
+  display: block;
+}
+.shardsHeader{
+  display: flex;
+  justify-content: left;
+}
+.navbar{
+  font-family: michromaRegular;
+  font-size: 12px;
+  display: block;
+}
+
+li > a{
+  color: rgb(192, 255, 251);
+}
+
+li{
+  display: flex;
+  justify-content: right;
+  float: right;
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  li{
+    display: flex;
+    justify-content: left;
+    float: left;
+    padding: 5px;
+    margin-left: 0px;
+    padding-left: 0px;
+
+  }
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: bungeeRegular;
+    margin-bottom: 3px;
+}
+
+h1{
+  font-size: 3em;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+h2{
+  font-size: 30px;
+}
+
+p, small{
+  font-family: michromaRegular;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+strong{
+  font-size: 20px;
+}
+
+hr{
+  color: aqua;
+  width: 60%;
+}
+
+.socialmedialogos{
+  display: flex;
+  justify-content: left;
+}
+
+.smlogo{
+  width: 50px;
+  border: none;
+  margin: none;
+
+}
+
+a{
+  color: rgb(255, 158, 247);
+}
