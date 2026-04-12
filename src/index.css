@@ -8,6 +8,18 @@
   src: url(/fonts/Michroma-Regular.ttf);
 }
 
+@media screen and (max-width: 768px) {
+  section{
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+
+  li{
+    width: 100%;
+  }
+
+}
+
 body{
   background-color: rgb(34, 37, 48);
   color: rgb(0, 255, 242);
@@ -38,6 +50,7 @@ section{
   font-family: michromaRegular;
   font-size: 12px;
   display: block;
+  align-items: right;
   padding-bottom: 3em;
 }
 
@@ -47,22 +60,9 @@ li > a{
 
 li{
   display: block;
-  justify-content: right;
+  align-items: right;
   float: right;
   padding: 5px;
-}
-
-@media screen and (max-width: 768px) {
-  li{
-    display: flex;
-    justify-content: left;
-    float: left;
-    padding: 5px;
-    margin-left: 0px;
-    padding-left: 0px;
-
-  }
-
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6{
 h1{
   font-size: 3em;
   padding-top: 0px;
-  margin-top: 0px;
+  margin-top: 3px;
 }
 h2{
   font-size: 30px;

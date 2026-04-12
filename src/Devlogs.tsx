@@ -8,7 +8,7 @@ export default function Devlog(){
         </section>
         <section>
             <p>
-                COMING SOON!
+                <a href=''></a>
             </p>
         </section>
     </>

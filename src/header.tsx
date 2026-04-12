@@ -10,9 +10,9 @@ export default function Header(){
                 </section>
                 <section className='navbar'>
                     <nav>
+                        <li><Link to={`/home`}>Home</Link></li>
                         <li><Link to={`/devlogs`}>Devlogs</Link></li>
                         <li><Link to={`/downloads`}>Downloads</Link></li>
-                        <li><Link to={`/home`}>Home</Link></li>
                     </nav>
                 </section>
             </div>

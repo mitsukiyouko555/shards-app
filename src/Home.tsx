@@ -74,7 +74,10 @@ export default function Home() {
           <br/>
           <br/>
           <small>
-
+          The Event Viewer tab gathers info from all the tabs and displays it in an easy to read fashion.
+          <br/>
+          <br/>
+          For example, if you had something that needs to be addressed in the settings, something to address in Weave, and another thing to address in the Dashboard, instead of jumping to different tabs, you can just view all the to do's here!
           </small>
           <br/>
           <br/>
@@ -82,7 +85,7 @@ export default function Home() {
           <br/>
           <br/>
           <small>
-
+          This is a critical part of SHARDS - as you can customize the app to fit your story - Including how your pipeline looks - so that it can better help you manage your assets.
           </small>
           <br/>
           <br/>
@@ -90,7 +93,11 @@ export default function Home() {
           <br/>
           <br/>
           <small>
-
+          Not every story has a magic system and some stories might have multiple magic systems, which is why this is a plugin instead of a core feature.
+          <br/><br/>
+          This tab keeps track of all your magic systems. You can have a magic system with one type of calculation in terms of mana usage, and another completely different workings and attributes and maybe mo mana count at all but something else entirely.. ink, if the magic is written, ingredients, if the magic is cooked, etc.
+          <br/><br/>
+          The idea is tht every magic system should be supported.
           </small>
           <br/>
           <br/>
@@ -98,7 +105,10 @@ export default function Home() {
           <br/>
           <br/>
           <small>
-
+          This is an additional plugin that works with the Magic System Tab. 
+          <br/>
+          <br/>          
+          It takes the calculations and formulas for your magic system and the abilities you've noted for your characters and makes it so that when you write a fight scene, you can select a character, select the spells that they've used, and keep your fight scene realistic according to your worldbuilding.
           </small>
         </p>
       </section>
