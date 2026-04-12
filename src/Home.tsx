@@ -26,7 +26,7 @@ export default function Home() {
         <h1>About</h1>
       </section>
       <section>
-        <img src='src/assets/shardsLogo.png'/> 
+        <img src='assets/shardsLogo.png'/> 
       </section>
       <section>
         <p>
