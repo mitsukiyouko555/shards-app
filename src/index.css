@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 @font-face {
   font-family: bungeeRegular;
   src: url(/fonts/Bungee-Regular.ttf);
@@ -9,6 +12,7 @@
 }
 
 @media screen and (max-width: 768px) {
+  
   section{
     padding-right: 0%;
     padding-left: 0%;
@@ -26,6 +30,7 @@ body{
 }
 
 img{
+  max-width: 100%;
   border-style: solid;
   border-width: 1px;
   border-radius: 5%;
@@ -49,8 +54,6 @@ section{
 .navbar{
   font-family: michromaRegular;
   font-size: 12px;
-  display: block;
-  align-items: right;
   padding-bottom: 3em;
 }
 
@@ -60,8 +63,8 @@ li > a{
 
 li{
   display: block;
-  align-items: right;
-  float: right;
+  align-items: left;
+  float: left;
   padding: 5px;
 }
 
@@ -106,6 +109,14 @@ hr{
 
 }
 
+.devloglinks{
+  color: rgb(201, 255, 255);
+  text-decoration: none;
+  padding-bottom: 1em;
+}
+
 a{
-  color: rgb(255, 158, 247);
+  color: rgb(255, 187, 249);
+  padding: 5px;
+  display: block;
 }

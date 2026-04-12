@@ -34,8 +34,6 @@ export default function Home() {
           <br/>
           <br/>
           Check out the Github Repository Here: <a href='https://github.com/mitsukiyouko555/shards/tree/main'>https://github.com/mitsukiyouko555/shards/tree/main</a>
-          <br/>
-          <br/>
           <h2>
             CONCEPT:
           </h2>
