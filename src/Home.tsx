@@ -34,9 +34,12 @@ export default function Home() {
           <br/>
           <br/>
           Check out the Github Repository Here: <a href='https://github.com/mitsukiyouko555/shards/tree/main'>https://github.com/mitsukiyouko555/shards/tree/main</a>
-          <h2>
+          <br/>
+          <br/>          
+          <strong className='fakeh2'>
             CONCEPT:
-          </h2>
+          </strong>
+          <br/>
           <br/>
           <strong>THE DASHBOARD TAB</strong>
           <br/>
