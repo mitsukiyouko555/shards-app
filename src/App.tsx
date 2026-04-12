@@ -8,13 +8,14 @@ import { HashRouter, Routes, Route} from "react-router-dom";
 export default function App(){
     return(
         <>
-            <Header/>
             <HashRouter>
+                <Header/>
                     <Routes>
                         <Route path="/" element={<Home/>}/>
                         <Route path="/home" element={<Home/>}/>
                         <Route path="/devlogs" element={<Devlog/>}/>
-                        <Route path="/downloads" element={<Downloads/>}/>                        
+                        <Route path="/downloads" element={<Downloads/>}/>
+                        <Route path="*" element={<h1>404 Page Not Found!</h1>} />
                     </Routes>
             </HashRouter>
         </>

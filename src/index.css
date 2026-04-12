@@ -38,6 +38,7 @@ section{
   font-family: michromaRegular;
   font-size: 12px;
   display: block;
+  padding-bottom: 3em;
 }
 
 li > a{
@@ -45,7 +46,7 @@ li > a{
 }
 
 li{
-  display: flex;
+  display: block;
   justify-content: right;
   float: right;
   padding: 5px;

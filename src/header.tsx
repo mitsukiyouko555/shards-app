@@ -1,4 +1,5 @@
 import './index.css'
+import {Link} from "react-router-dom";
 
 export default function Header(){
     return(
@@ -9,8 +10,9 @@ export default function Header(){
                 </section>
                 <section className='navbar'>
                     <nav>
-                        <li><a href='downloads'>Downloads</a></li>
-                        <li><a href='devlogs'>Devlogs</a></li>
+                        <li><Link to='#/devlogs'>Devlogs</Link></li>
+                        <li><Link to='#/downloads'>Downloads</Link></li>
+                        <li><Link to='#/'>Home</Link></li>
                     </nav>
                 </section>
             </div>
