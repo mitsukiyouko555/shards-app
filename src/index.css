@@ -1,11 +1,11 @@
 @font-face {
   font-family: bungeeRegular;
-  src: url(src/fonts/Bungee-Regular.ttf);
+  src: url(fonts/Bungee-Regular.ttf);
 }
 
 @font-face {
   font-family: michromaRegular;
-  src: url(src/fonts/Michroma-Regular.ttf);
+  src: url(fonts/Michroma-Regular.ttf);
 }
 
 body{
