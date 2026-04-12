@@ -47,6 +47,7 @@ section{
 
 .headerbar{
   display: block;
+  align-items: left;
 }
 .shardsHeader{
   display: flex;
@@ -55,7 +56,7 @@ section{
 .navbar{
   font-family: michromaRegular;
   font-size: 12px;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
 
 li > a{
@@ -78,7 +79,7 @@ h1, h2, h3, h4, h5, h6{
 h1{
   font-size: 3em;
   padding-top: 0px;
-  margin-top: 3px;
+  /* margin-top: 0px; */
 }
 h2{
   font-size: 30px;
