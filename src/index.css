@@ -92,7 +92,7 @@ p, small{
   font-family: michromaRegular;
   line-height: 25px;
   letter-spacing: 1px;
-  overflow-wrap: break-word;
+  overflow-wrap: anywhere;
 }
 
 strong{
