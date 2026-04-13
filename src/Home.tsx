@@ -3,25 +3,6 @@ import './index.css'
 export default function Home() {
   return (
     <>
-      {/* <section className='socialmedialogos'>
-          <div className="smlogo-wrapper">
-          <a href="https://www.youtube.com/@mitsukiyouko">
-              <img className="smlogo" src="src/assets/socialmedialogos/youtube.png"/> 
-          </a>
-          <a href="https://buymeacoffee.com/mitsukiyouko">
-              <img className="smlogo" src="src/assets/socialmedialogos/bmc.png"/> 
-          </a>
-          <a href="https://github.com/mitsukiyouko555">
-              <img className="smlogo" src="src/assets/socialmedialogos/github.png"/> 
-          </a>
-          <a href="https://mitsukiyouko555.wixsite.com/portfolio">
-              <img className="smlogo" src="src/assets/socialmedialogos/personallogo.png"/> 
-          </a>
-          <a href="https://mitsukiyouko555.github.io/hackwebcomic/">
-              <img className="smlogo" src="src/assets/socialmedialogos/hack.png"/> 
-          </a>
-          </div>
-      </section> */}
       <section className='header'>
         <h1>About</h1>
       </section>
@@ -98,7 +79,7 @@ export default function Home() {
           <br/><br/>
           This tab keeps track of all your magic systems. You can have a magic system with one type of calculation in terms of mana usage, and another completely different workings and attributes and maybe mo mana count at all but something else entirely.. ink, if the magic is written, ingredients, if the magic is cooked, etc.
           <br/><br/>
-          The idea is tht every magic system should be supported.
+          The idea is that every magic system should be supported.
           </small>
           <br/>
           <br/>
@@ -109,7 +90,7 @@ export default function Home() {
           This is an additional plugin that works with the Magic System Tab. 
           <br/>
           <br/>          
-          It takes the calculations and formulas for your magic system and the abilities you've noted for your characters and makes it so that when you write a fight scene, you can select a character, select the spells that they've used, and keep your fight scene realistic according to your worldbuilding.
+          It takes the calculations and formulas for your magic system and the abilities you've noted for your characters and makes it so that when you write a fight scene, you can select a character, select the spells that they've used, and it will calculate how much mana the character has left based on the rules in your Magic System tab so as to keep your fight scene realistic in accordance with your worldbuilding.
           </small>
         </p>
       </section>

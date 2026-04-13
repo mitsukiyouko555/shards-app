@@ -130,6 +130,15 @@ a{
   display: block;
 }
 
+.socialmedialogos{
+  display: flex;
+  justify-content: center;
+}
+.smlogo-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (max-width: 768px) {
   
   section{
@@ -162,6 +171,5 @@ a{
   hr{
   color: aqua;
   width: 80%;
-}
-
+  }
 }
