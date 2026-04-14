@@ -26,7 +26,7 @@ export default function Home() {
           <br/>
           <br/>
           <small>
-          For adding or importing, and viewing all Characters, Objects, and Locations - as well as viewing data for each of these elements. In the tab for each character you can add additional elements that are trackable across your many arcs/chapters/beats.
+          For adding or importing, and viewing all Characters, Objects, and Locations - as well as viewing data for each of these elements. In the tab for each character, object, or location, you can add additional elements that are trackable across your many arcs/chapters/beats.
           </small>
           <br/>
           <br/>
